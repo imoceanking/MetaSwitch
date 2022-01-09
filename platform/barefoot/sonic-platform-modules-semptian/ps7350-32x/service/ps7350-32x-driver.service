@@ -1,0 +1,15 @@
+[Unit]
+Description= This QSFP Monitor service is to setup QSFP SI.
+Before=platform-monitor.service
+After=sysinit.target
+
+[Service]
+ExecStart=/usr/sbin/install.sh
+KillSignal=SIGKILL
+SuccessExitStatus=SIGKILL
+
+# Resource Limitations
+LimitCORE=infinity
+
+[Install]
+WantedBy=multi-user.target

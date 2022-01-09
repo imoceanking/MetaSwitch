@@ -1,0 +1,12 @@
+Package: sonic-platform-semptian-ps7350-32x-dbgsym
+Source: platform-driver
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Semptian <semptian@semptian.com>
+Installed-Size: 49
+Depends: sonic-platform-semptian-ps7350-32x (= 1.0.0)
+Section: debug
+Priority: optional
+Description: debug symbols for sonic-platform-semptian-ps7350-32x
+Build-Ids: 3d96319fd44b0af52f45a579528f23b40e5209ac 79075cddaee44a9dc5fabf6610e460bbc233ee59 c56777017d58d8f3b3129e86e3fba6b9da17123d cd768be79bd7291ffb7cec5e75be456341ae2b6a ea9bea06c55e0c2da073dce92fcfac63f9ad509d

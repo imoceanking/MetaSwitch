@@ -1,0 +1,12 @@
+Source: platform-driver
+Section: unknown
+Priority: optional
+Maintainer: Semptian <semptian@semptian.com>
+Build-Depends: debhelper (>= 9), dh-systemd
+Standards-Version: 1.0.1
+
+Package: sonic-platform-semptian-ps7350-32x
+Architecture: amd64 
+Description: This package contains PS7350-32X platform driver utility for SONiC project.
+
+
