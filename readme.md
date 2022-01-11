@@ -20,4 +20,4 @@
 
 注意:
 1. 修改build_sonic_platform_multiprofile.sh文件，在build platform debain脚本中创建x86_64-semptian_ps7350_32x-r0软连接
-
+  ln -s x86_64-accton_wedge100bf_65x-r0 x86_64-semptian_ps7350_32x-r0
